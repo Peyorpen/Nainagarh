@@ -3,15 +3,15 @@ import { ViewState, AdminUser } from './types';
 import { Navigation } from './Navigation';
 import { Hero } from './Hero';
 import { Rooms } from './Rooms';
-import { Banquets } from './components/Banquets';
-import { Dining, DiningTab } from './components/Dining';
+import { Banquets } from './Banquets';
+import { Dining, DiningTab } from './Dining';
 import { Tours } from './Tours';
 import { VaranasiGuide } from './VaranasiGuide';
 import { Footer } from './Footer';
-import { Concierge } from './components/Concierge';
+import { Concierge } from './Concierge';
 import { Gallery } from './Gallery';
-import { AdminLogin } from './components/AdminLogin';
-import { AdminDashboard } from './components/AdminDashboard';
+import { AdminLogin } from './AdminLogin';
+import { AdminDashboard } from './AdminDashboard';
 import { DataProvider } from './DataContext';
 
 const MainApp: React.FC = () => {
