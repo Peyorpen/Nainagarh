@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ViewState } from '../types';
+import { ViewState } from './types';
 import { Menu, X, Hotel, Lock, Compass } from 'lucide-react';
 import { useData } from '../contexts/DataContext';
 
