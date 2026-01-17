@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { ViewState, AdminUser } from './types';
-import { Navigation } from './components/Navigation';
-import { Hero } from './components/Hero';
-import { Rooms } from './components/Rooms';
+import { Navigation } from './Navigation';
+import { Hero } from './Hero';
+import { Rooms } from './Rooms';
 import { Banquets } from './components/Banquets';
 import { Dining, DiningTab } from './components/Dining';
-import { Tours } from './components/Tours';
-import { VaranasiGuide } from './components/VaranasiGuide';
-import { Footer } from './components/Footer';
+import { Tours } from './Tours';
+import { VaranasiGuide } from './VaranasiGuide';
+import { Footer } from './Footer';
 import { Concierge } from './components/Concierge';
-import { Gallery } from './components/Gallery';
+import { Gallery } from './Gallery';
 import { AdminLogin } from './components/AdminLogin';
 import { AdminDashboard } from './components/AdminDashboard';
-import { DataProvider } from './contexts/DataContext';
+import { DataProvider } from './DataContext';
 
 const MainApp: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>(ViewState.HOME);
