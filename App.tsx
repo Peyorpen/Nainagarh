@@ -12,7 +12,7 @@ import { Concierge } from './Concierge';
 import { Gallery } from './Gallery';
 import { AdminLogin } from './AdminLogin';
 import { AdminDashboard } from './AdminDashboard';
-import { DataProvider } from './DataContext';
+import { DataProvider } from './contexts/DataContext';
 
 const MainApp: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>(ViewState.HOME);
